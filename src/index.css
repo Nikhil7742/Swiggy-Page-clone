@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.itemBox:hover{
+    transform: scale(0.93);
+    transition-duration: 0.5s;
+}
+.search{
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid gainsboro;
+}
